@@ -1,0 +1,53 @@
+.booking-stats {
+    position: fixed; 
+    right: 5%; 
+    top: 40%; 
+    transform: translateY(-50%); 
+    width: 250px; 
+    background-color: white; 
+    color: black; 
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 4px; 
+    max-height: 30vh; 
+    max-width: 30vw;
+    overflow-y: auto;
+    z-index: 5;
+}
+
+.booking-stats h3 {
+    margin-top: 0;
+}
+
+.booking-stats table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.booking-stats th, .booking-stats td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.booking-stats-header {
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start; 
+}
+
+.booking-stats-header button {
+    margin-left: 10px;
+    background-color: #007bff;
+    cursor: pointer;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    z-index: 100;
+    margin: 5px;
+}
+
+.booking-stats-header button:hover {
+    background-color: #0556b3;
+}

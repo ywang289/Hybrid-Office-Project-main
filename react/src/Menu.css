@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    color: #ffffff;
+    background-color: #0077b6;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main-title {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    background-color: #0077b6;
+    /* padding: 10px; */
+}
+
+.menu button{
+    flex-grow: 1;
+    margin: 1px;
+    padding: 20px 40px;
+    background-color: #5ea8f7;
+    font-family: 'Arial', sans-serif;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.menu button:hover {
+    background-color: #007bff;
+}
+
+.logo img {
+    height: 10vh;
+    margin-right: 5vw;
+}

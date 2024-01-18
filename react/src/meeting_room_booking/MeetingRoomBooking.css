@@ -1,0 +1,41 @@
+.search-section{
+    margin: 5px;
+    z-index: 1000;
+    position: relative;
+}
+
+.search-section button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-section button:hover {
+    background-color: #0056b3;
+}
+
+.search-section input {
+    padding: 5px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+}
+
+.search-section select {
+    padding: 5px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.calendar-container {
+    width: 95vw;
+    height: 100vh;
+    overflow: auto;
+    padding: 10px;
+}

@@ -1,0 +1,70 @@
+.floor-map-container {
+    position: relative;
+    border: 1px solid #ccc;
+    cursor: grab;
+    width: 100%;
+    padding-top: 100%;
+    overflow: auto;
+}
+
+.floor-map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: 0 0;
+    background-size: contain;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+.zoom-controls {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 10;
+}
+
+.zoom-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: grey;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.out {
+    right: 60px;
+}
+
+.floor-map.f1n {
+    background-image: url('./floor_map/Level1_North.png');
+}
+
+.floor-map.f1s {
+    background-image: url('./floor_map/Level1_South.png');
+}
+
+.floor-map.f2n {
+    background-image: url('./floor_map/Level2_North.png');
+}
+
+.floor-map.f2s {
+    background-image: url('./floor_map/Level2_South.png');
+}
+
+.floor-map.f3n {
+    background-image: url('./floor_map/Level3_North.png');
+}
+
+.floor-map.f3s {
+    background-image: url('./floor_map/Level3_South.png');
+}

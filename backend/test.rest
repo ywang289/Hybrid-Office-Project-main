@@ -1,0 +1,1 @@
+GET http://localhost:3000/room-dashboard?startDate=2024-01-10&endDate=2024-01-10

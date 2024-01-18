@@ -1,0 +1,91 @@
+.main-dashboard button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-dashboard button:hover {
+    background-color: #0056b3;
+}
+
+.search-section{
+    margin: 20px;
+    z-index: 1000;
+    position: relative;
+}
+
+.search-section button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.search-section button:hover {
+    background-color: #0056b3;
+}
+
+.search-section input {
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.search-section select {
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    margin: 5px;
+}
+
+
+.dashboard {
+    min-width: 90vw; 
+    min-height: 80vh;
+    overflow: auto;
+    margin: auto;
+}
+
+.dashboard table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #007bff;
+    position: relative;
+    table-layout: fixed;
+}
+
+.dashboard th, .dashboard td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 1vh;
+    background-color: white;
+    height: 5vh;
+}
+
+.dashboard th {
+    background-color: #6eb0f6;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .dashboard th, .dashboard td {
+        display: block;
+        width: 100%;
+    }
+}
+
+.sortable {
+    cursor: pointer;
+}

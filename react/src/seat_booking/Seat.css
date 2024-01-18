@@ -1,0 +1,32 @@
+.seat {
+    color: white;
+    border: 1px solid black;
+    border-radius: 0px;
+    font-size: 0.7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.seat.available {
+    background-color: rgb(50, 168, 54);
+    cursor: pointer;
+}
+
+.seat.permanent {
+    background-color: orange;
+    cursor: pointer;
+}
+
+.seat.booked {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.seat.unavailable {
+    background-color: black;
+    cursor: not-allowed;
+}
+

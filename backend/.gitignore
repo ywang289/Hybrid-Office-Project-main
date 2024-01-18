@@ -1,0 +1,4 @@
+# *.sqlite3
+*.xlsx
+/node_modules
+*.env

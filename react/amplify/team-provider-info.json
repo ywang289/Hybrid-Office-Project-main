@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-hybridofficefrontend-dev-201729-authRole",
+      "UnauthRoleArn": "arn:aws:iam::730335258865:role/amplify-hybridofficefrontend-dev-201729-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::730335258865:role/amplify-hybridofficefrontend-dev-201729-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-hybridofficefrontend-dev-201729-deployment",
+      "UnauthRoleName": "amplify-hybridofficefrontend-dev-201729-unauthRole",
+      "StackName": "amplify-hybridofficefrontend-dev-201729",
+      "StackId": "arn:aws:cloudformation:us-east-1:730335258865:stack/amplify-hybridofficefrontend-dev-201729/58a41580-b59f-11ee-aa19-0eb47dc4cfc3",
+      "AmplifyAppId": "dar8i29ep6vxj"
+    },
+    "categories": {
+      "hosting": {
+        "S3AndCloudFront": {}
+      }
+    }
+  }
+}
